@@ -3296,6 +3296,9 @@ textarea.form-control:active {
   margin-bottom: 5px;
   color: #FFFFFF;
   border-radius: 0.875rem;
+  /* Alina Kurliantseva => start */
+  font-weight: 400;
+  /* Alina Kurliantseva => end */
 }
 
 .badge:hover,
@@ -3579,7 +3582,10 @@ h6,
 
 p {
   line-height: 1.61em;
-  font-weight: 300;
+  /* Alina Kurliantseva => font-weight: 300; */
+  /* Alina Kurliantseva => start */
+  font-weight: 400;
+  /* Alina Kurliantseva => end */
   font-size: 1.2em;
 }
 
@@ -5965,11 +5971,9 @@ img {
 
 .section {
   /* Alina Kurliantseva => padding: 70px 0; */
-
   /* Alina Kurliantseva => start */
   padding: 25px 0;
   /* Alina Kurliantseva => end */
-
   position: relative;
   background: #FFFFFF;
 }
@@ -6090,7 +6094,6 @@ img {
   /* For Firefox 3.6 to 15 */
   /* Alina Kurliantseva => background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6)); */
   /* Standard syntax */
-
   /* Alina Kurliantseva => start */
   background-image: url('../img/dot-pattern.png');
   background-repeat: repeat;
@@ -6533,7 +6536,6 @@ img {
     /* For Firefox 3.6 to 15 */
     /* Alina Kurliantseva => background: linear-gradient(#f96332 0%, #000 80%); */
     /* Standard syntax (must be last) */
-      
     /* Alina Kurliantseva => start */
     background-image: url('../img/dot-pattern.png');
     background-repeat: repeat;
@@ -6541,7 +6543,6 @@ img {
     width: 100vw;
     height: 100vh;
     /* Alina Kurliantseva => end */
-
     /* Alina Kurliantseva =>  opacity: 0.76;
                               filter: alpha(opacity=76); */
     display: block;
